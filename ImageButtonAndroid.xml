@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Theory of Computing"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textDemo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combinatorial Optimization"
+        android:textSize="25sp" />
+    <Button
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name"
+        android:textSize="22sp"
+        />
+
+    <ImageButton
+        android:layout_width="90dp"
+        android:layout_height="108dp"
+        android:src="@drawable/abc" />
+    <Button
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_name"
+        android:textSize="22sp"
+        android:drawableLeft="@drawable/abc"
+        />
+</LinearLayout>
