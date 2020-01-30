@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/CadetBlue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="@color/Black"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Structured Programming"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Structure and Algorithm"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combinatorial Optimization"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Design Pattern"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+        <Button
+            android:id="@+id/buttonl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="@color/Black"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+</LinearLayout>
