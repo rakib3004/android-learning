@@ -5,7 +5,7 @@ public class Analytic {
                          String[] bookType,String[] priority,String[] borrowCount1,String[] monthCount,
                          String[] bookPrice1,String[] bookId){
      //   Processing processing = new Processing();
-
+//declear array to get data 
         int typeValue [] =new int[1050];
         int timeCount [] = new int[1050];
         int bookCount [] = new int [1050];
@@ -15,7 +15,7 @@ public class Analytic {
 
         String string;
         int length;
-
+// running for loop for writer wise condition
         for(int i=0;i<50;i++){
            if(writerName[i].equals(" Humayon Ahmed")){
                writePriority[i]=25;
@@ -65,7 +65,7 @@ timePriority[i] = 16 -  (timeCount[i]/12);
 borrowCount[i] = bookCount[i];
 //serialPriority[i] = Math.pow(queueValue[i],(1/3));
 pricePriority[i] = Math.pow(bookPrice[i],(2/5));
-
+// set books weight
 weight[i] = bookPriority[i] +timePriority[i] +
         borrowCount[i]+//serialPriority[i]+
         +writePriority[i]+pricePriority[i];
@@ -75,7 +75,6 @@ bookData[i].setWeight(weight[i]);
       Sorting sorting = new Sorting();
         sorting.algorithm(bookData);
     }
-
 
 
 }
